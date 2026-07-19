@@ -1,0 +1,5 @@
+# Only needed for validation/excel_comparison.py -- reading the source
+# Excel workbook to confirm the engine still matches it. Not a runtime
+# dependency of engine/ or dashboard/streamlit_app.py.
+-r requirements.txt
+openpyxl>=3.1
